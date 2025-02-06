@@ -18,7 +18,7 @@ class Form1(Form1Template):
     elif(self.temperature >= 10 and self.temperature <= 20): #Between 10 and 20 say wear a sweater
       result = "Wear a sweater. "
     else: #Wear light clothing if between 20 to 40
-      result = "Wear light clothing"
+      result = "Wear light clothing. "
 
     if self.checkRaining.checked == True: #If the raining box is checked, say to bring an umbrella
       result += "Also make sure to bring an umbrella. "
